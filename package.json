@@ -1,11 +1,9 @@
 {
 	"name": "keda",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Generative art JavaScript toolbox",
 	"author": "Pierre Keda",
 	"license": "MIT",
-	"private": false,
-	"main": "./src/keda.js",
 	"dependencies": {
 		"animejs": "^3.2.0",
 		"dat.gui": "^0.7.7",
@@ -24,5 +22,7 @@
 	"scripts": {
 		"build": "webpack --mode production",
 		"start": "webpack-dev-server --open --mode development"
-	}
+	},
+	"main": "./src/keda.js",
+	"private": false
 }
