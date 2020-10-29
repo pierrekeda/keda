@@ -11,7 +11,7 @@ function getElement( id, container = document.body, type = 'div' ) {
 
 	if ( ! element ) {
 
-		document.createElement( type );
+		element = document.createElement( type );
 		element.setAttribute( 'id', id );
 		container.appendChild( element );
 
