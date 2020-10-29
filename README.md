@@ -1,2 +1,2 @@
 # keda
-Generative art JavaScript toolbox, by Pierre Keda
+Pierre Keda's JavaScript toolbox.
