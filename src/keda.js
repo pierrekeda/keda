@@ -42,4 +42,5 @@ export { Slicer } from './three/Slicer.js';
 export { capitalize } from './utils/capitalize.js';
 export { detectMobile } from './utils/detectMobile.js';
 export { exportPNG } from './utils/exportPNG.js';
+export { getElement } from './utils/getElement.js';
 export { random } from './utils/random.js';
