@@ -1,7 +1,7 @@
 //// CORE
 
 export { Clock } from './core/Clock.js';
-export { Updator } from './core/Updator.js';
+export { MethodList } from './core/MethodList.js';
 
 //// DOM
 
