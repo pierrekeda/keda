@@ -3,6 +3,11 @@
 export { Clock } from './core/Clock.js';
 export { Updator } from './core/Updator.js';
 
+//// DOM
+
+export { getElement } from './dom/getElement.js';
+export { setSize } from './dom/setSize.js';
+
 //// GLSL
 
 export { simplex3 } from './glsl/noise/simplex3.js';
@@ -42,5 +47,5 @@ export { Slicer } from './three/Slicer.js';
 export { capitalize } from './utils/capitalize.js';
 export { detectMobile } from './utils/detectMobile.js';
 export { exportPNG } from './utils/exportPNG.js';
-export { getElement } from './utils/getElement.js';
+
 export { random } from './utils/random.js';

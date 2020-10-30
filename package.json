@@ -1,7 +1,7 @@
 {
 	"name": "keda",
 	"version": "1.1.2",
-	"description": "Generative art JavaScript toolbox",
+	"description": "Pierre Keda's JavaScript toolbox.",
 	"author": "Pierre Keda",
 	"license": "MIT",
 	"dependencies": {
@@ -24,5 +24,7 @@
 		"start": "webpack-dev-server --open --mode development"
 	},
 	"main": "./src/keda.js",
-	"private": false
+	"private": false,
+	"homepage": "https://github.com/pierrekeda/keda",
+	"repository": "github:pierrekeda/keda"
 }
