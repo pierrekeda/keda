@@ -1,6 +1,6 @@
 {
 	"name": "keda",
-	"version": "1.1.2",
+	"version": "1.2.0",
 	"description": "Pierre Keda's JavaScript toolbox.",
 	"author": "Pierre Keda",
 	"license": "MIT",
