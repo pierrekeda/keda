@@ -6,7 +6,7 @@ export { Updator } from './core/Updator.js';
 //// DOM
 
 export { getElement } from './dom/getElement.js';
-export { setSize } from './dom/setSize.js';
+export { setElementSize } from './dom/setElementSize.js';
 
 //// GLSL
 

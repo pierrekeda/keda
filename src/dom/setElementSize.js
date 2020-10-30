@@ -5,7 +5,7 @@
  * @param {Number} width
  * @param {Number} height
  */
-function setSize( element, width, height ) {
+function setElementSize( element, width, height ) {
 
 
 	element.setAttribute( 'width', width );
@@ -15,4 +15,4 @@ function setSize( element, width, height ) {
 
 }
 
-export { setSize };
+export { setElementSize };
