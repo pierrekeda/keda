@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import * as KEDA from './keda.js';
+import * as KEDA from '../src/keda.js';
 
 ///////// CORE
 

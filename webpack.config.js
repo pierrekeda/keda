@@ -2,7 +2,7 @@ const path = require( 'path' );
 
 let config = {
 
-	entry: './src/test.js',
+	entry: './scripts/test.js',
 
 };
 
@@ -31,11 +31,14 @@ module.exports = ( env, argv ) => {
 
 		config.mode = 'production';
 
-		config.entry = './src/build.js';
+		config.entry = './scripts/build.js';
 
 		config.output = {
 			path: path.resolve( __dirname, 'build' ),
-			filename: 'keda.min.js'
+			filename: 'keda.min.js',
+			library: 'KEDA',
+			libraryTarget: 'umd',
+			libraryExport: 'default'
 		};
 
 		config.module = {
@@ -51,11 +54,11 @@ module.exports = ( env, argv ) => {
 			]
 		};
 
-		config.externals = [
-			'animejs',
-			'dat.gui',
-			'three'
-		];
+		config.externals = {
+			animejs: 'anime',
+			'dat.gui': 'dat.gui',
+			three: 'THREE'
+		};
 
 	}
 
