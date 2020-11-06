@@ -55,8 +55,6 @@ module.exports = ( env, argv ) => {
 		};
 
 		config.externals = {
-			animejs: 'anime',
-			'dat.gui': 'dat.gui',
 			three: 'THREE'
 		};
 
